@@ -1,0 +1,7 @@
+{
+  "name": "react-page-transition",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
