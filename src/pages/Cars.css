@@ -1,0 +1,22 @@
+.my-home{
+  --background: pink;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 255, 0.5);
+  margin: 10px;
+}
+
+.my-overall {
+  z-index: 100;
+}
+
+.my-underall {
+  z-index: -100;
+}
+
+/* #my-ion-card {
+  display: false;
+} */

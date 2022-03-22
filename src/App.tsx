@@ -22,6 +22,8 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import Bicycles from './pages/Bicycles';
+import Cars from './pages/Cars';
+import Bus from './pages/Bus';
 
 setupIonicReact();
 
@@ -57,12 +59,20 @@ const animationBuilder = (baseEl: any, opts: any) => {
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
-      <IonRouterOutlet animation={animationBuilder} >
+      <IonRouterOutlet 
+      // animation={animationBuilder} 
+      >
         <Route exact path="/home" >
           <Home />
         </Route>
         <Route exact path="/bicycles">
           <Bicycles />
+        </Route>
+        <Route exact path="/bus">
+          <Bus />
+        </Route>
+        <Route exact path="/cars">
+          <Cars />
         </Route>
         <Route exact path="/">
           <Redirect to="/home" />
