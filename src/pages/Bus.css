@@ -1,23 +1,9 @@
-/* #my-content {
+#my-content {
   --background: cyan;
-} */
+}
 
 #my-menu {
-  /* display: flexbox;  */
-
-  /* border: 1px solid black; */
-
   --max-height: auto;
   --max-width: auto;
   --box-shadow: none;
 }
-
-/*
-#my-list, #my-list .my-item{
-   --background: green;
-  --color: white; 
-}*/
-
-/* .my-header{
-  z-index: 90000;
-}  */

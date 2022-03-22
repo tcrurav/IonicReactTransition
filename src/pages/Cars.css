@@ -1,4 +1,4 @@
-.my-home{
+.my-home {
   --background: pink;
 }
 
@@ -11,6 +11,7 @@
 
 .my-overall {
   z-index: 100;
+  opacity: 0;
 }
 
 .my-underall {

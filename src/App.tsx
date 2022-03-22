@@ -59,8 +59,8 @@ const animationBuilder = (baseEl: any, opts: any) => {
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
-      <IonRouterOutlet 
-      // animation={animationBuilder} 
+      <IonRouterOutlet
+        animation={animationBuilder}
       >
         <Route exact path="/home" >
           <Home />
